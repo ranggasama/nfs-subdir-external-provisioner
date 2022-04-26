@@ -60,7 +60,6 @@ The following tables lists the configurable parameters of this chart and their d
 | `storageClass.defaultClass`         | Set as the default StorageClass                                                                       | `false`                                                  |
 | `storageClass.allowVolumeExpansion` | Allow expanding the volume                                                                            | `true`                                                   |
 | `storageClass.reclaimPolicy`        | Method used to reclaim an obsoleted volume                                                            | `Delete`                                                 |
-| `storageClass.volumeBindingMode`    | Controls when volume binding and dynamic provisioning should occur                                                            | `Delete`                                                 |
 | `storageClass.provisionerName`      | Name of the provisionerName                                                                           | null                                                     |
 | `storageClass.archiveOnDelete`      | Archive PVC when deleting                                                                             | `true`                                                   |
 | `storageClass.onDelete`             | Strategy on PVC deletion. Overrides archiveOnDelete when set to lowercase values 'delete' or 'retain' | null                                                     |
